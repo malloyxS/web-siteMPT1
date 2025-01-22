@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../CSS"
+		},
+		{
+			"path": "../HTML"
+		},
+		{
+			"path": "../Image"
+		},
+		{
+			"path": "../japanese-fonts-css"
+		},
+		{
+			"path": "../JS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}

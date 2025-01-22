@@ -1,0 +1,28 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+*{
+    font-family: 'Smooch', sans-serif; /* Семейство шрифтов  */
+    margin: 0; /* Величина отступа от каждого края элемента */
+    padding: 0; /* Внутренний отступ от края элемента до вложенной в него информации */
+    box-sizing: border-box; /* Рамочки */
+    list-style: none; /* Убирает маркеры из списка */
+    text-decoration: none; /* не будет декораций текста */
+    scroll-padding-top: 2rem; /* не даёт размещать информацию на отступе от краёв на 2rem сверхую 1rem - 16 пикселей */
+    scroll-behavior: smooth; /* плавное прокручивание на сайте */
+}
+:root{ /* Свойства для HTML и SVG */
+    --green-color: #00a550;
+    --light-green-color: #b2ec5d;
+    --orange-color: #FFA500;
+    --light-orange-color: #FFD580;
+    --text-color: #1a1a1a;
+    --bg-color: #fff;
+}
+
+img {
+    width: 100%;
+}
+body {
+    color: var(--text-color);
+
+}
