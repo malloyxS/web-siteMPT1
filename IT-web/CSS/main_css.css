@@ -26,3 +26,14 @@ body {
     color: var(--text-color);
 
 }
+
+header{
+position: fixed; /*фиксировнно в одном месте*/
+width: 100%;
+top: 0;
+right: 0;
+z-index: 1000;
+display: flex; /*Показывает как должны отображаться элементы в документе*/
+align-items: center;
+justify-content: space-between;
+}
