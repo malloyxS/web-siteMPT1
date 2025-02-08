@@ -16,24 +16,46 @@
     --orange-color: #FFA500;
     --light-orange-color: #FFD580;
     --text-color: #1a1a1a;
-    --bg-color: #fff;
+    --bg-color: #d83911;
 }
 
 img {
     width: 100%;
 }
+
 body {
     color: var(--text-color);
 
 }
 
 header{
-position: fixed; /*фиксировнно в одном месте*/
-width: 100%;
-top: 0;
-right: 0;
-z-index: 1000;
-display: flex; /*Показывает как должны отображаться элементы в документе*/
-align-items: center;
-justify-content: space-between;
+    position: fixed; /*фиксировнно в одном месте*/
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex; /*Показывает как должны отображаться элементы в документе*/
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    box-shadow: 0 8px 11px rgb(214, 150, 32);
+    padding: 20px 100px;
+    transition: 0.5s;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    cursor: pointer;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile span{
+    font-size: 15px;
+    font-weight: 500;
 }
