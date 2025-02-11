@@ -9,6 +9,10 @@
     <!--Icon-->
     <link rel="icon" href="favicon.ico" class="ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 <body>
     <!--Navbar-->
@@ -18,12 +22,12 @@
 </body>
 <header>
     <h1>Нияма</h1>
-    <nav>
-        <a href="#menu">Меню</a>
-        <a href="#about">О нас</a>
-        <a href="#contact">Контакты</a>
+    <nav class="navbar">
+        <li><a href="#home" class="home-active">Домашняя Страница</a></li>
+        <li><a href="#categories" class="home-passive">Категории</a></li>
+        <li><a href="#hproduct" class="home-passive">Продукты</a></li>
+        <li><a href="#about" class="home-passive">О нас</a></li>
     </nav>
-</header>
 
 <!--Profile-->
 <div class="profile">
@@ -32,16 +36,28 @@
     <i class="bx bx-caret-down"></i>
 </div>
 </header>
+    <!--Home-->
+    <section class="home-swipper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <span>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. Necessitatibus illum aspernatur quibusdam explicabo praesentium, <br>exercitationem, nisi non excepturi sit dolorum consectetur<br> amet, nam molestias asperiores voluptate <br>quidem suscipit esse mollitia.</span>
+                <h1>Lorem ipsum dolor sit <br>amet consectetur adipisicing elit. Voluptatem laudantium molestias minus <br>accusamus non? Quam, atque? Eos dolorum, expedita consequ<br>atur libero, reiciendis minima labore atque, ipsam inventore optio et perferendis.</h1>
+                <a href="#" class="btn">Купить<i class="bx bx=right-arrow-alt"></i></a>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+    </section>
+     <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Link to JS-->
+    <script>src="/JS/main.js"
+
+    </script>
 <div class="container">
     <section id="menu">
         <h2>Наше меню</h2>
         <div class="menu">
-            <div class="menu-item">
-                <h3>Премиум сет Елочка    
-                    <img data-v-b3740a96="" alt="Премиум сет Елочка" src="https://apiv2.niyama.ru/media/144680/conversions/6747d1d8-d997-4c3d-890e-8367ee349290-products-organizations.jpg" class="card-product-sidebar__image-inner w-100 h-100">            </h3>
-                <p>Роллы: Калифорния (6 шт.), Филадельфия (6 шт.), Филадельфия лайт (6 шт.), Унаги кранч (6 шт.), Хагакуре (6 шт.), Канада (6 шт.), Эби шарп (6 шт.), Сяке бонито (6 шт.) Гунканы: Кани спайси (2 шт.) Корзинки спайси: С лососем (1 шт.), С тунцом (1 шт.), С крабом (1 шт.), С креветкой (1 шт.), С угрём (1 шт.) Маки: Сяке маки (3 шт.), Магуро маки (3 шт.), Авокадо маки (3 шт.). Время приготовления и доставки до 2-х часов. Данный сет является спецпредложением! Скидки не предоставляются.                </p>
-                <p><strong>Цена: 250 ₽</strong></p>
-            </div>
             <div class="menu-item">
                 <h3>Пельмени</h3>
                 <p>Домашние пельмени с мясом.</p>

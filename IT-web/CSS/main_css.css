@@ -16,7 +16,7 @@
     --orange-color: #FFA500;
     --light-orange-color: #FFD580;
     --text-color: #1a1a1a;
-    --bg-color: #d83911;
+    --bg-color: #ffffff;
 }
 
 img {
@@ -38,7 +38,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: var(--bg-color);
-    box-shadow: 0 8px 11px rgb(214, 150, 32);
+    box-shadow: 0 8px 11px rgb(214, 164, 77);
     padding: 20px 100px;
     transition: 0.5s;
 }
@@ -85,10 +85,18 @@ header{
     padding: 0.5rem 1rem;
 }
 
-.navbar a:hover{
+.navbar a:hover,
+.navbar .home-active{
     background: var(--green-color);
     border-radius: 5rem;
     color: var(--bg-color);
     transition: background 0.5s;
+}
+
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
 }
 
