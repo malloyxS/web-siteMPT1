@@ -116,7 +116,7 @@ section{
     background-size: cover; /*Покрывает всё пространство*/
     background-position: center;
     overflow: hidden; /*Скрывает часть содержимого, которое не поместилось в контейнере*/
-    background: url(/IT-web/Image/backgroundrest.webp);
+    background: url(/IT-web/Image/backgroundIT.jpg);
     
 }
 
