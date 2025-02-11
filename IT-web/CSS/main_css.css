@@ -42,6 +42,12 @@ header{
     padding: 20px 100px;
     transition: 0.5s;
 }
+
+section{
+    padding: 4,5rem 0 1.5rem;
+
+}
+
 .profile{
     display: flex;
     align-items: center;
@@ -100,3 +106,39 @@ header{
     display: none;
 }
 
+.container{
+    position: relative; /*Определяет позиционирование элемента относительно его стандартного местоположения на странице*/
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat; /*Не повторяется БГ*/
+    background-size: cover; /*Покрывает всё пространство*/
+    background-position: center;
+    overflow: hidden; /*Скрывает часть содержимого, которое не поместилось в контейнере*/
+    background: url(/IT-web/Image/backgroundrest.webp);
+    
+}
+
+.container img{
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+}
+
+.home-text{
+    padding: 0 150px;
+    top: 200px;
+    position: absolute;
+}
+.home-text span{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--green-color);
+}
+.home-text h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
