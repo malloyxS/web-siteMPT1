@@ -32,7 +32,7 @@
 <!--Profile-->
 <div class="profile">
     <img src="/IT-web/Image/profilephotoIT.jpg" alt="">
-    <span>Профиль</span>
+    <span><a href="profile.html">Профиль</a></span>
     <i class="bx bx-caret-down"></i>
 </div>
 </header>
@@ -53,7 +53,7 @@
                 <div class="home-text">
             <span>We are home</span>
             <h1>Лучший японский ресторан Москвы!</h1>
-            <a href="#" class="btn">Купить<i class="bx bx=right-arrow-alt"></i></a>
+            <a href="#" class="btn">Заказать доставку<i class="bx bx=right-arrow-alt"></i></a>
         </div>
         <img src="/IT-web/Image/gosti_v_restorane.jpg">
       </div>
@@ -74,5 +74,44 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!--Link to JS-->
     <script src="/IT-web/JS/main_js.js"></script>
+    <section class="registerform" id="home">
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Пароль</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Адрес</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Ул. Нежинская, 7">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Город</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Почтовый индекс</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Запомнить меня
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+            <button type="button" class="btn btn-secondary btn-lg">Регистрация</button>
+        </div>
+      </form>
+    </section>
+<section>
+    
+</section>
 </body>
 </html>
